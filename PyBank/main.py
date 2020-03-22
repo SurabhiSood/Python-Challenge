@@ -59,5 +59,10 @@ with open('budget_data.csv','r') as csvfile:
     print(f"Greatest Increase in Profits:{answer}")
     print(f"Greatest Decrease in Profits:{answer1}")
 
-f=open('output.txt', 'w')
-pass
+with open("output.txt",'w') as outfile:
+    outfile.write("-------------------\nFinancial Analysis\n-------------------\n")
+    outfile.write(f"Total number of Months :{lines-1}\n")
+    outfile.write(f"Total Amount of 'Profit/Losses': ${Total}\n")
+    outfile.write(f"Greatest Increase in Profits:{answer}\n")
+    outfile.write(f"Greatest Decrease in Profits:{answer1}")
+
