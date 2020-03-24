@@ -36,7 +36,7 @@ with open('election_data.csv','r') as csvfile:
     vote_t=("{0:.3f}%".format(vote4))
 
     vote_list=[len(khan_vote),len(correy_vote),len(li_vote),len(tool_vote)]
-    print(vote_list)
+    #print(vote_list)
        
     print("Election Results")
     print("----------------------")
