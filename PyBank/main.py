@@ -23,10 +23,10 @@ with open('budget_data.csv','r') as csvfile:
     List2=[]
     myList=[]
     myList=Val.copy()
-    myList.remove(867884)
+    myList.pop(0)
     List2=myList.copy()
     
-    Val_month.remove("Jan-2010")
+    Val_month.pop(0)
     
     difference=[]
     zip_object = zip(Val, List2)
