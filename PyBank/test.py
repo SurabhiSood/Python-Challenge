@@ -1,22 +1,3 @@
-# Dependencies
-import os
-import csv
-
-# Specify the file to write to
-output_path = os.path.join("..", "output", "new.csv")
-
-# Open the file using "write" mode. Specify the variable to hold the contents
-with open(output_path, 'w') as csvfile:
-
-    # Initialize csv.writer
-    csvwriter = csv.writer(csvfile, delimiter=',')
-
-    # Write the first row (column headers)
-    csvwriter.writerow(['First Name', 'Last Name', 'SSN'])
-
-    # Write the second row
-    csvwriter.writerow(['Caleb', 'Frost', '505-80-2901'])
-
-    #csvwriter.writerows(['Caleb', 'Frost', '505-80-2901'],
-    #             ['aleb', 'Frost', '505-80-2901'],
-    # ['leb', 'Frost', '505-80-2901'])
+list=[1,2,3,4,5,6,7,8,9,0]
+list.pop(0)
+print(list)
