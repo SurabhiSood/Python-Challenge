@@ -1,4 +1,5 @@
-##PyBank
+#PyBank
+
 Analyzing the financial records of your company.The dataset is composed of two columns: `Date` and `Profit/Losses`.The Python script analyzes the records to calculate each of the following:
 
 *The total number of months included in the dataset
@@ -12,7 +13,8 @@ Analyzing the financial records of your company.The dataset is composed of two c
 *The greatest decrease in losses (date and amount) over the entire period
 
 
-##PyPoll
+#PyPoll
+
 Help a small, rural town modernize its vote-counting process.The set of poll dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. The task is to create a Python script that analyzes the votes and calculates each of the following:
 
 *The total number of votes cast
